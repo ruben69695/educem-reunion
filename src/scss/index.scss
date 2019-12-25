@@ -1,0 +1,115 @@
+@import "global.scss";
+@import "navbar.scss";
+@import "timeline.scss";
+@import "portfolio.scss";
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $primaryColor;
+}
+
+section {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: $gray-dark;
+    height: 100vh;
+    
+    &:nth-of-type(2n) {
+      background-color: $primaryColor;
+    }
+}
+
+.my-name {
+    margin-top: 5vh;
+}
+
+.intro {
+    height: 90vh;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    color: $whiteColor;
+}
+
+.hobby-svg {
+    font-size: 80px;
+    margin-bottom: 15px;
+    color: $whiteColor;
+}
+
+.hobby {
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    display: block;
+    color: $whiteColor;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: $whiteColor;
+}
+
+hr {
+    background-color: $whiteColor;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 10vh;
+}
+
+.header {
+    z-index: 1;
+    text-align: center;
+    color: $whiteColor;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+}
+
+.site-title {
+    font-size: 50px;
+    display: block;
+    line-height: 1;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: $whiteColor;
+}
+
+.site-description {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: $whiteColor;
+    margin-top: 10px;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+a {
+  color: white;
+  :hover {
+    color: #e0e0e0;
+  }
+  .arrow {
+    margin-top: 15vh
+  }
+}

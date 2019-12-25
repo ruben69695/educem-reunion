@@ -1,0 +1,26 @@
+@import "global.scss";
+
+.hotel-navbar {
+    background-color: $navBarColor;
+    color: $whiteColor;
+}
+
+.hotel-navbar-brand {
+    color: $whiteColor;
+}
+
+.hotel-navbar-brand:hover {
+    color: $navBarLink;
+}
+
+.hotel-navbar-link {
+    color: $whiteColor;
+}
+
+.hotel-navbar-link:hover {
+    color: $navBarLink;
+}
+
+.hotel-navbar-menu {
+    color: $whiteColor;
+}

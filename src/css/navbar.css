@@ -1,0 +1,20 @@
+.hotel-navbar {
+  background-color: #fe5000;
+  color: white; }
+
+.hotel-navbar-brand {
+  color: white; }
+
+.hotel-navbar-brand:hover {
+  color: #e0e0e0; }
+
+.hotel-navbar-link {
+  color: white; }
+
+.hotel-navbar-link:hover {
+  color: #e0e0e0; }
+
+.hotel-navbar-menu {
+  color: white; }
+
+/*# sourceMappingURL=navbar.css.map */
