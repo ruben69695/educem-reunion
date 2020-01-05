@@ -1,3 +1,5 @@
+@import "global.scss";
+
 .main-timeline{
     font-family: 'Roboto', sans-serif;
     padding: 30px 0;
@@ -84,6 +86,7 @@
     margin: 0 0 10px;
 }
 .main-timeline .description{
+    color: $gray-dark;
     font-size: 15px;
     letter-spacing: 1px;
     margin: 0;

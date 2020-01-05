@@ -4,7 +4,6 @@
 @import "portfolio.scss";
 
 * {
-    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -27,7 +26,7 @@ section {
 }
 
 .my-name {
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 .intro {
@@ -52,6 +51,19 @@ section {
     text-align: center;
 }
 
+.dev-tip {
+    text-align: center;
+    flex: 1 10rem;
+}
+
+
+.dev-language {
+    max-width: 230px;
+    max-height: 230px;
+    text-align: center;
+    margin: 5px;
+}
+
 h1 {
     font-size: 3em;
     display: block;
@@ -69,7 +81,7 @@ hr {
     background-color: $whiteColor;
     margin-left: 45%;
     margin-right: 45%;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 
 .header {
@@ -112,4 +124,14 @@ a {
   .arrow {
     margin-top: 15vh
   }
+}
+
+.tips {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
+.prog-frameworks {
+    background-color: $gray-dark;
 }

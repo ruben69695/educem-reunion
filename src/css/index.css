@@ -105,6 +105,7 @@
   margin: 0 0 10px; }
 
 .main-timeline .description {
+  color: #333333;
   font-size: 15px;
   letter-spacing: 1px;
   margin: 0; }
@@ -262,7 +263,6 @@
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px; } }
 * {
-  box-sizing: border-box;
   scroll-behavior: smooth; }
 
 body {
@@ -280,7 +280,7 @@ section {
     background-color: #fe5000; }
 
 .my-name {
-  margin-top: 5vh; }
+  margin-top: 10vh; }
 
 .intro {
   height: 90vh; }
@@ -300,6 +300,16 @@ section {
   padding-bottom: 2vh;
   text-align: center; }
 
+.dev-tip {
+  text-align: center;
+  flex: 1 10rem; }
+
+.dev-language {
+  max-width: 230px;
+  max-height: 230px;
+  text-align: center;
+  margin: 5px; }
+
 h1 {
   font-size: 3em;
   display: block;
@@ -315,7 +325,7 @@ hr {
   background-color: white;
   margin-left: 45%;
   margin-right: 45%;
-  margin-bottom: 10vh; }
+  margin-bottom: 5vh; }
 
 .header {
   z-index: 1;
@@ -352,5 +362,12 @@ a {
     color: #e0e0e0; }
   a .arrow {
     margin-top: 15vh; }
+
+.tips {
+  font-size: 1.5em;
+  font-weight: 500; }
+
+.prog-frameworks {
+  background-color: #333333; }
 
 /*# sourceMappingURL=index.css.map */
