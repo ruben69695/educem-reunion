@@ -17,10 +17,6 @@ window.onload = () => {
 };
 
 document.getElementById('my-career').onclick = (event) => {
-
-    console.log(`Page index ${timeline_page_index}`);
-    console.log(`Current page ${timeline_page_classes[timeline_page_index]}`);
-
     var items_to_hide = document.getElementsByClassName(timeline_page_classes[timeline_page_index]);
     change_style_display(items_to_hide, 'none');
 

@@ -263,7 +263,8 @@
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px; } }
 * {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  font-family: 'Ubuntu', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'; }
 
 body {
   background-color: #fe5000; }
