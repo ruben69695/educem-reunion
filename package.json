@@ -18,7 +18,7 @@
   "homepage": "https://github.com/ruben69695/educem-reunion#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "magnific-popup": "^1.1.0",
     "open-iconic": "^1.1.1",
     "popper.js": "^1.16.0"
